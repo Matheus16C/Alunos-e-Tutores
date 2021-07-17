@@ -2,16 +2,16 @@ package modelo;
 
 import java.util.Date;
 
-public class Usuario {
+public abstract class Usuario {
     private String nome;
     private String cpf;
     private Date dataNascimento;
     private String email;
     private String senha;
-    private String genero;
     private Formacao formacao;
     private Endereco endereco;
 
+    /*
     public String getNome() {
         return nome;
     }
@@ -52,14 +52,6 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
     public Formacao getFormacao() {
         return formacao;
     }
@@ -75,7 +67,7 @@ public class Usuario {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
-
+*/
 
 
 }

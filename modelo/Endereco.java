@@ -10,6 +10,7 @@ public class Endereco {
     private String pais;
     private String cep;
 
+    /*
     public int getNumero() {
         return numero;
     }
@@ -73,5 +74,6 @@ public class Endereco {
     public void setCep(String cep) {
         this.cep = cep;
     }
+    */
 
 }

@@ -4,10 +4,11 @@ import java.util.List;
 
 public class Formacao {
     private String formacao;
-    private boolean possueformacao;
+    private boolean possuiformacao;
     private int nivelInteresse;
     private List<String> disciplinas;
 
+    /*
     public String getFormacao() {
         return formacao;
     }
@@ -16,12 +17,12 @@ public class Formacao {
         this.formacao = formacao;
     }
 
-    public boolean isPossueformacao() {
-        return possueformacao;
+    public boolean ispossuiformacao() {
+        return possuiformacao;
     }
 
-    public void setPossueformacao(boolean possueformacao) {
-        this.possueformacao = possueformacao;
+    public void setpossuiformacao(boolean possuiformacao) {
+        this.possuiformacao = possuiformacao;
     }
 
     public int getNivelInteresse() {
@@ -39,6 +40,6 @@ public class Formacao {
     public void setDisciplinas(List<String> disciplinas) {
         this.disciplinas = disciplinas;
     }
-
+*/
 
 }
